@@ -5,6 +5,8 @@ write-up of how this is modelled (and the math behind it) can be found at writeu
 The short version is that, for each (k, blind, hand) triple representing our number of chips,
 whether we're SB or BB, and what our 2-card hand is, we have a game state. And from each of these
 states (where we don't have 0 or all the chips), we have two moves: call or fold.
+
+For BUYIN = 100, this takes about 30 minutes to run on my machine.
 '''
 import pandas as pd
 import numpy as np

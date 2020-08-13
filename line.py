@@ -8,7 +8,7 @@ strategy is to always move left.
 from SGSolver import SGSolver
 
 LINE_SIZE = 10
-SUCCESS_RATE = 2.0/3.0
+SUCCESS_RATE = 0.66667
 
 gs = SGSolver()
 for i in range(LINE_SIZE):
